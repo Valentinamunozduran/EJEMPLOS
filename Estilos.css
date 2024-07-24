@@ -1,0 +1,33 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#mensaje {
+    color: turquoise;
+    font-size: larger;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+}
+button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #007BFF;
+}
+
+button:active{
+    transform: translateY(2px);
+    box-shadow: 0 2px #666;
+}
